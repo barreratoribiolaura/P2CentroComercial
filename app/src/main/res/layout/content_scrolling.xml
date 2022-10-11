@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ScrollingActivity"
+    tools:showIn="@layout/activity_scrolling">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_margin="@dimen/margincard"
+            app:cardCornerRadius="25dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#e1bee7">
+
+                <ImageView
+                    android:id="@+id/imgNuevoCentro"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent" />
+                <TextView
+                    android:id="@+id/nombreNuevoCentro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    app:layout_constraintBottom_toTopOf="@id/direccionNuevoCentro"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:textAppearance="?attr/textAppearanceHeadline5"
+                    android:textStyle="bold"
+                    android:layout_marginStart="@dimen/margintext"
+                    android:textColor="@color/white">
+                </TextView>
+                <TextView
+                    android:id="@+id/direccionNuevoCentro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginStart="@dimen/margintext"
+                    android:layout_marginBottom="@dimen/margintext"
+                    android:textStyle="bold"
+                    android:textColor="@color/white">
+                </TextView>
+                <TextView
+                    android:id="@+id/tiendasNuevoCentro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginStart="@dimen/margintext"
+                    android:layout_marginBottom="@dimen/margintext"
+                    android:layout_marginEnd="@dimen/margintext"
+                    android:textAppearance="?attr/textAppearanceHeadline5"
+                    android:textColor="@color/white">
+                </TextView>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_margin="@dimen/margincard"
+            app:cardCornerRadius="25dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#e1bee7">
+
+                <ImageView
+                    android:id="@+id/imgBonaire"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent" />
+                <TextView
+                    android:id="@+id/nombreBonaire"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    app:layout_constraintBottom_toTopOf="@id/direccionBonaire"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:textAppearance="?attr/textAppearanceHeadline5"
+                    android:textStyle="bold"
+                    android:layout_marginStart="@dimen/margintext"
+                    android:textColor="@color/white">
+                </TextView>
+                <TextView
+                    android:id="@+id/direccionBonaire"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginStart="@dimen/margintext"
+                    android:layout_marginBottom="@dimen/margintext"
+                    android:textStyle="bold"
+                    android:textColor="@color/white">
+                </TextView>
+                <TextView
+                    android:id="@+id/tiendasBonaire"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginStart="@dimen/margintext"
+                    android:layout_marginBottom="@dimen/margintext"
+                    android:layout_marginEnd="@dimen/margintext"
+                    android:textAppearance="?attr/textAppearanceHeadline5"
+                    android:textColor="@color/white">
+                </TextView>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cv3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_margin="@dimen/margincard"
+            app:cardCornerRadius="25dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#e1bee7">
+
+                <ImageView
+                    android:id="@+id/imgMN4"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent" />
+                <TextView
+                    android:id="@+id/nombreMN4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    app:layout_constraintBottom_toTopOf="@id/direccionBonaire"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:textAppearance="?attr/textAppearanceHeadline5"
+                    android:textStyle="bold"
+                    android:layout_marginStart="@dimen/margintext"
+                    android:textColor="@color/white">
+                </TextView>
+                <TextView
+                    android:id="@+id/direccionMN4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginStart="@dimen/margintext"
+                    android:layout_marginBottom="@dimen/margintext"
+                    android:textStyle="bold"
+                    android:textColor="@color/white">
+                </TextView>
+                <TextView
+                    android:id="@+id/tiendasMN4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginStart="@dimen/margintext"
+                    android:layout_marginBottom="@dimen/margintext"
+                    android:layout_marginEnd="@dimen/margintext"
+                    android:textAppearance="?attr/textAppearanceHeadline5"
+                    android:textColor="@color/white">
+                </TextView>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cv4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_margin="@dimen/margincard"
+            app:cardCornerRadius="25dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#e1bee7">
+
+                <ImageView
+                    android:id="@+id/imgElSaler"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent" />
+                <TextView
+                    android:id="@+id/nombreElSaler"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    app:layout_constraintBottom_toTopOf="@id/direccionElSaler"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:textAppearance="?attr/textAppearanceHeadline5"
+                    android:textStyle="bold"
+                    android:layout_marginStart="@dimen/margintext"
+                    android:textColor="@color/white">
+                </TextView>
+                <TextView
+                    android:id="@+id/direccionElSaler"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginStart="@dimen/margintext"
+                    android:layout_marginBottom="@dimen/margintext"
+                    android:textStyle="bold"
+                    android:textColor="@color/white">
+                </TextView>
+                <TextView
+                    android:id="@+id/tiendasElSaler"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginStart="@dimen/margintext"
+                    android:layout_marginBottom="@dimen/margintext"
+                    android:layout_marginEnd="@dimen/margintext"
+                    android:textAppearance="?attr/textAppearanceHeadline5"
+                    android:textColor="@color/white">
+                </TextView>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
