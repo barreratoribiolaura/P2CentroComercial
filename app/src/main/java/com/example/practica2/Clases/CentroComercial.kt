@@ -5,5 +5,7 @@ data class CentroComercial(var id:Int,var nombre:String,var direccion:String,var
 
 
 
+
+
 }
 

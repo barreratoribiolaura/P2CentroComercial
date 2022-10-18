@@ -6,7 +6,10 @@ import com.example.practica2.R
 
 import java.io.Serializable
 
-data class Tienda(var nombre_tienda:String,var descripcion:String) : Serializable{
+data class Tienda(var nombre_tienda:String,var descripcion:String) {
+
+
+
 
 }
 

@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".ScrollingActivity"
     tools:showIn="@layout/activity_scrolling">
 
@@ -162,7 +161,7 @@
                     android:id="@+id/nombreMN4"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    app:layout_constraintBottom_toTopOf="@id/direccionBonaire"
+                    app:layout_constraintBottom_toTopOf="@id/direccionMN4"
                     app:layout_constraintStart_toStartOf="parent"
                     android:textAppearance="?attr/textAppearanceHeadline5"
                     android:textStyle="bold"
